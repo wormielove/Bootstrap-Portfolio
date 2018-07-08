@@ -98,11 +98,13 @@ h2 {
     text-align: block;
     z-index: 2;
     opacity: .98;
+    overflow: auto;
 }
 
 #me-and-kids {
     /* float: left; */
     margin-right: 2%;
+    position: relative;
 }
 
 #note {
