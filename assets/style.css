@@ -98,11 +98,13 @@ h2 {
     text-align: block;
     z-index: 2;
     opacity: .98;
+    overflow: auto;
 }
 
 #me-and-kids {
     /* float: left; */
     margin-right: 2%;
+    position: relative;
 }
 
 #note {
@@ -123,6 +125,7 @@ h2 {
 }
 #wontg {
     margin-top: 20px;
+    position: relative;
 }
 
 #links {
@@ -130,6 +133,9 @@ h2 {
 }
 #project1 {
     text-align: center;
+    /* margin-left: 30%;
+    margin-right: 30%; */
+    align-content: center;
     font-size: large;
     border-radius: 25px;
     background-color: rgb(255, 255, 226);
